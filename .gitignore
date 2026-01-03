@@ -1,0 +1,35 @@
+# Python 环境
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+pip-delete-this-directory.txt
+
+# 环境变量文件（最重要！）
+.env
+.env.local
+.env.*.local
+
+# 日志和临时文件
+*.log
+*.tmp
+*.bak
+
+# 测试输出
+alive_models.txt
+models.txt
+
+# IDE 配置
+.idea/
+.vscode/
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
